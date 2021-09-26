@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'adorableregular';
+    src: url('adorable-webfont.woff2') format('woff2'),
+         url('adorable-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'artisual_deco_demoregular';
+    src: url('artisualdeco-regular-webfont.woff2') format('woff2'),
+         url('artisualdeco-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'coolveticaregular';
+    src: url('coolvetica_rg-webfont.woff2') format('woff2'),
+         url('coolvetica_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('caviardreams-webfont.woff2') format('woff2'),
+         url('caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+body{
+    background-color: rgb(248, 245, 147);    
+}
+
+#vertical_navbar{
+    position: relative;
+    float: right ;
+    width: 180px;
+    height: 600px;
+    background-color: rgb(250, 248, 188);
+} 
+
+#logo_navbar{
+    height:190px;
+    width:190px;
+
+}
+
+#vertical_navbar ul{
+    position: absolute;
+    bottom: 25px;
+}
+
+#btn_Registro
+    {
+    border: 2px solid  rgb(255, 250, 100);; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: rgb(255, 249, 64); /*color botón*/
+    color: #000000; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'coolveticaregular'; /*tipografía texto*/
+    font-size: 15px;
+    border-radius: 50px; /*bordes redondos*/}
+
+
+h1{ /*Encabezado*/
+    text-align: center;
+    font-size: 60px;
+    font-family:'artisual_deco_demoregular';
+}
+
+h2{ /*Subtitulo*/
+    text-align: center;
+    font-size:40px;
+    font-family:'adorableregular';
+}
+h3{/*Pagina de registro*/
+    text-align: center;
+    font-size:60px;
+    font-family:'adorableregular';
+    }
+
+h4{/*Titulosinformación*/
+    text-align: center;
+    font-size:30px;
+    font-family:'coolveticaregular';
+    }
+
+#form_registrarse{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'coolveticaregular';
+
+}
+#btn_registrar_usuario{
+    border: 2px solid  rgb(255, 250, 100);; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: rgb(255, 249, 64); /*color botón*/
+    color: #000000; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'coolveticaregular'; /*tipografía texto*/
+    font-size: 15px;
+    border-radius: 50px; /*bordes redondos*/}
+
+#columnas{
+    column-count:2;
+    column-gap: 50px;
+    list-style: none;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'caviar_dreamsregular';
+    font-weight: 500;
+}
+
+main{
+    margin-right: 250px;
+    margin-left: 80px;
+}

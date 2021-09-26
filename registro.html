@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/estilos.css"  rel="stylesheet" type="text/css">
+    <link href="./font/stylesheet.css"   rel="stylesheet" type="text/css">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+    <h3>Registrarse</h3>
+    </header>
+    <main>
+    <form id="form_registrarse">
+        
+        <label for="in_nombre_usuario">
+        <span>Usuario</span>
+        <input type="text" id="in_nombre_usuario"><br>
+        </label>
+        
+        <label for="in_contrasena">
+        <span>Contraseña</span>
+        <input type="password" id="in_contrasena" minlength="6"><br>
+        </label>
+        
+        <label for="in_confirmar_contrasena">
+        <span>Confirmar contraseña</span>
+        <input type="password" id="in_confirmar_contrasena"> <br>
+        </label> 
+        <button id="btn_registrar_usuario" type="submit" >Registrarse</button>
+    </form>
+</main>
+<script src="validaciones.js"></script>
+</body>
+</html>
+
+
+
